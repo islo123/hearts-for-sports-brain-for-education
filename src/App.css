@@ -1,0 +1,149 @@
+.header-style{
+    text-align: center;
+    background-image: url("https://images.unsplash.com/photo-1499571915857-1463cca3370a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
+    background-size: cover;
+    color: white;
+    padding: 5%;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Aleo', serif;
+    letter-spacing: 3px;
+    text-shadow: 2px 2px rgb(7, 11, 255);
+}
+@media screen and (max-width: 600px){
+    .header-style{
+        padding: 10px;
+    }
+}
+.tabbar-style{
+    display:grid;
+    grid-template-columns: repeat(6, 1fr);
+    text-align: center;
+    padding: 10px;
+    
+}
+
+.link-style{
+    border: solid rgb(228, 228, 236);
+    padding: 5px;
+    background-color: rgb(148, 212, 250);
+    border-radius: 5px;
+}
+.link{
+    color:white;
+    text-decoration: none;
+}
+.link:hover{
+   text-decoration: underline;
+}
+.in-link{
+    padding: 5px;
+}
+@media screen and (max-width: 600px){
+    .tabbar-style{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .link-style{
+        padding: 0px;
+    }
+    .kuvat-style1{
+    width: 100%;
+}
+}
+.etusivu-style{
+    text-align: center;
+    background-image: url("https://images.unsplash.com/photo-1542274449074-9b0cdb2a8d86?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80");
+    background-size: cover;
+    background-position: center bottom;
+    padding-bottom: 20%;
+    color: rgb(255, 255, 255);
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-weight: bold;
+    text-shadow: 2px 2px rgb(16, 16, 17);
+}
+.kuvat-style{
+    display: grid;
+    grid-template-columns:repeat(auto-fit, minmax(20%, 1fr));
+}
+.kuvat-style1{
+    width: 100%;
+}
+
+
+.tarvitset-style{
+    background-image: url("https://images.unsplash.com/photo-1516979187457-637abb4f9353?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
+    background-size: cover;
+    padding: 2rem;
+    padding-bottom: 10%;
+}
+.lajit-style{
+    background-image: url("https://images.unsplash.com/photo-1519847944462-d2229b64154d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1353&q=80");
+    background-size: cover;
+    padding: 5%;
+    color: rgb(245, 245, 245);
+}
+.hinnasto-style{
+    background-image: url("https://images.unsplash.com/photo-1521731978332-9e9e714bdd20?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1353&q=80");
+    background-size: cover;
+    background-attachment: fixed;
+    padding-bottom: 10%;
+    padding-top: 3%;
+    padding-right: 3%;
+    color: rgb(236, 236, 236);
+
+}
+.hinnasto-style h2{
+    text-align: center;
+}
+.meistä-style{
+    background-image: url("https://images.unsplash.com/photo-1431540015161-0bf868a2d407?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+    padding: 5%;
+    padding-bottom: 10%;
+    background-size: cover;
+    background-attachment: fixed;
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(243, 243, 243), 0 0 5px darkblue;
+}
+.yhteys-style{
+    padding: 10%;
+    padding-top: 5%;
+
+}
+.footer-style{
+    text-align: center;
+    
+}
+/* INPUT CSS */
+* {
+    box-sizing: border-box;
+}
+
+ input[type=text],input[type=email], select, textarea {
+     width: 100%;
+     padding: 12px;
+     border: 1px solid #ccc;
+     border-radius: 4px;
+     box-sizing: border-box;
+     margin-top: 6px;
+     margin-bottom: 16px;
+     resize: vertical;
+}
+ input[type=submit] {
+     background-color: #4CAF50;
+     color: white;
+     padding: 12px 20px;
+     border: none;
+     border-radius: 4px;
+     cursor: pointer;
+}
+ input[type=submit]:hover {
+     background-color: #45a049;
+}
+ .container {
+     border-radius: 5px;
+     background-color: #f2f2f2;
+     padding: 20px;
+}
+/* INPUT CSS*/
